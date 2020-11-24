@@ -2,7 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+/*
+Вопрос по ООП...Принципы SOLID и DRY стоит ли изучать в начальном этапе? у меня всегда многократное повторение кода
+ */
 public class GUI extends JFrame {
     private Container pane;
     private String currentPlayer;
@@ -28,7 +30,7 @@ public class GUI extends JFrame {
         initializeMenuBar();
 
     }
-    private void initializeMenuBar(){
+    private void initializeMenuBar(){  //попробовал сделать меню, если будет возможность покажите на уроке как сделать меню пожалуйста
         menuBar = new JMenuBar();
         menu = new JMenu("Файл");
         newGame = new JMenuItem("Новая игра");
